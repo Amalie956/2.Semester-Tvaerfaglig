@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class MainActivity3 extends AppCompatActivity {
+public class HyggeActivitiesInCopenhagen extends AppCompatActivity {
     public ImageView ActivityTivoli;
     public ImageView ActivityRestaurant;
     public ImageView ActivitNature;
@@ -22,7 +22,7 @@ public class MainActivity3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.hygge_activities_in_copenhagen);
 
         ActivityTivoli = (ImageView) findViewById(R.id.tivoliPictureID);
         ActivityRestaurant = (ImageView) findViewById(R.id.restaurantPictureID);
@@ -35,7 +35,7 @@ public class MainActivity3 extends AppCompatActivity {
         ActivityTivoli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity3.this, MainActivity5.class);
+                Intent intent = new Intent(HyggeActivitiesInCopenhagen.this, TivoliActivity.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +43,7 @@ public class MainActivity3 extends AppCompatActivity {
         ActivityRestaurant.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity3.this, MainActivity7.class);
+                Intent intent = new Intent(HyggeActivitiesInCopenhagen.this, RestaurantActivity.class);
                 startActivity(intent);
             }
         });
@@ -51,7 +51,7 @@ public class MainActivity3 extends AppCompatActivity {
         ActivitNature.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity3.this, MainActivity8.class);
+                Intent intent = new Intent(HyggeActivitiesInCopenhagen.this, NatureActivity.class);
                 startActivity(intent);
             }
         });
@@ -59,14 +59,14 @@ public class MainActivity3 extends AppCompatActivity {
         ActivityCafe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity3.this, MainActivity9.class);
+                Intent intent = new Intent(HyggeActivitiesInCopenhagen.this, CafeActivity.class);
                 startActivity(intent);
             }
         });
         ActivityAmalienborg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity3.this, MainActivity10.class);
+                Intent intent = new Intent(HyggeActivitiesInCopenhagen.this, AmalienborgActivity.class);
                 startActivity(intent);
             }
         });
@@ -74,7 +74,7 @@ public class MainActivity3 extends AppCompatActivity {
         ActivityZoo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity3.this, MainActivity11.class);
+                Intent intent = new Intent(HyggeActivitiesInCopenhagen.this, ZooActivity.class);
                 startActivity(intent);
             }
         });

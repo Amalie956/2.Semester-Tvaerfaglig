@@ -4,87 +4,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity4">
+    tools:context=".HyggeActivitiesInCopenhagen">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aktivitet 4"
+        android:text="Aktivitet 3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.148" />
+        app:layout_constraintVertical_bias="0.089" />
 
     <LinearLayout
-        android:layout_width="414dp"
-        android:layout_height="584dp"
+        android:layout_width="375dp"
+        android:layout_height="556dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="190dp"
+            android:layout_height="143dp"
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/hotchocolatePictureID"
-                android:layout_width="193dp"
-                android:layout_height="145dp"
-                app:srcCompat="@drawable/hotchocolate" />
+                android:id="@+id/tivoliPictureID"
+                android:layout_width="172dp"
+                android:layout_height="118dp"
+                app:srcCompat="@drawable/tivoli" />
 
             <ImageView
-                android:id="@+id/socksPictureID"
-                android:layout_width="120dp"
-                android:layout_height="153dp"
+                android:id="@+id/restaurantPictureID"
+                android:layout_width="96dp"
+                android:layout_height="116dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/hyggesocks" />
+                app:srcCompat="@drawable/restaurant" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="190dp"
+            android:layout_height="139dp"
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/twoFemalesPictureID"
-                android:layout_width="339dp"
-                android:layout_height="156dp"
+                android:id="@+id/naturePictureID"
+                android:layout_width="45dp"
+                android:layout_height="118dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/twofemales" />
+                app:srcCompat="@drawable/nature" />
 
             <ImageView
-                android:id="@+id/bathubPictureID"
-                android:layout_width="358dp"
-                android:layout_height="156dp"
+                android:id="@+id/cafePictureID"
+                android:layout_width="69dp"
+                android:layout_height="116dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bathtub" />
+                app:srcCompat="@drawable/cafe" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="190dp"
+            android:layout_height="251dp"
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/lightingPictureID"
-                android:layout_width="match_parent"
-                android:layout_height="164dp"
+                android:id="@+id/amalienborgPictureID"
+                android:layout_width="6dp"
+                android:layout_height="118dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/hyggelighting" />
+                app:srcCompat="@drawable/amalienborg" />
 
             <ImageView
-                android:id="@+id/sofaPictureID"
-                android:layout_width="429dp"
-                android:layout_height="169dp"
+                android:id="@+id/zooPictureID"
+                android:layout_width="4dp"
+                android:layout_height="116dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/greensofa" />
+                app:srcCompat="@drawable/zoo" />
         </LinearLayout>
     </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

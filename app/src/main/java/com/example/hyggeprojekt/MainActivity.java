@@ -3,7 +3,6 @@ package com.example.hyggeprojekt;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         informationAboutHyggeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(MainActivity.this, HyggeInformation.class);
                 startActivity(intent);
             }
         });
@@ -32,14 +31,14 @@ public class MainActivity extends AppCompatActivity {
         hyggeActivitiesInCopenhagen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainActivity3.class);
+                Intent intent = new Intent(MainActivity.this, HyggeActivitiesInCopenhagen.class);
                 startActivity(intent);
             }
         });
         hyggeActivitiesAtHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainActivity4.class);
+                Intent intent = new Intent(MainActivity.this, HyggeAtHomeActivities.class);
                 startActivity(intent);
             }
         });

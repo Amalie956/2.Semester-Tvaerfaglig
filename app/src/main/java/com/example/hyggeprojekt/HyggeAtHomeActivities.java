@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class MainActivity4 extends AppCompatActivity {
+public class HyggeAtHomeActivities extends AppCompatActivity {
     public ImageView ActivityHotChocolate;
     public ImageView ActivitySocks;
     public ImageView ActivityTwoFemales;
@@ -23,7 +23,7 @@ public class MainActivity4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main4);
+        setContentView(R.layout.hygge_at_home_activities);
 
         ActivityHotChocolate = (ImageView) findViewById(R.id.hotchocolatePictureID);
         ActivitySocks = (ImageView) findViewById(R.id.socksPictureID);
@@ -35,7 +35,7 @@ public class MainActivity4 extends AppCompatActivity {
         ActivityHotChocolate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity4.this, MainActivity6.class);
+                Intent intent = new Intent(HyggeAtHomeActivities.this, HotDrinksActivity.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +43,7 @@ public class MainActivity4 extends AppCompatActivity {
         ActivitySocks.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity4.this, MainActivity12.class);
+                Intent intent = new Intent(HyggeAtHomeActivities.this, ComfortableClothesSocksActivity.class);
                 startActivity(intent);
             }
         });
@@ -51,7 +51,7 @@ public class MainActivity4 extends AppCompatActivity {
         ActivityTwoFemales.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity4.this, MainActivity13.class);
+                Intent intent = new Intent(HyggeAtHomeActivities.this, FriendsActivity.class);
                 startActivity(intent);
             }
         });
@@ -59,7 +59,7 @@ public class MainActivity4 extends AppCompatActivity {
         ActivityBathub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity4.this, MainActivity14.class);
+                Intent intent = new Intent(HyggeAtHomeActivities.this, HomeCareBathtubActivity.class);
                 startActivity(intent);
             }
         });
@@ -67,7 +67,7 @@ public class MainActivity4 extends AppCompatActivity {
         ActivityLighting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity4.this, MainActivity15.class);
+                Intent intent = new Intent(HyggeAtHomeActivities.this, LightingActivity.class);
                 startActivity(intent);
             }
         });
@@ -75,7 +75,7 @@ public class MainActivity4 extends AppCompatActivity {
         ActivitySofa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity4.this, MainActivity16.class);
+                Intent intent = new Intent(HyggeAtHomeActivities.this, RelaxOnSofaActivity.class);
                 startActivity(intent);
             }
         });
