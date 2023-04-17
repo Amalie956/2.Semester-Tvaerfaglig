@@ -18,27 +18,76 @@
         app:layout_constraintVertical_bias="0.147" />
 
     <LinearLayout
-        android:layout_width="398dp"
-        android:layout_height="344dp"
-        android:orientation="horizontal"
+        android:layout_width="375dp"
+        android:layout_height="556dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575">
 
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars" />
+            <ImageView
+                android:id="@+id/tivoliPictureID"
+                android:layout_width="172dp"
+                android:layout_height="118dp"
+                app:srcCompat="@drawable/tivoli" />
+
+            <ImageView
+                android:id="@+id/restaurantPictureID"
+                android:layout_width="96dp"
+                android:layout_height="116dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/restaurant" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/naturePictureID"
+                android:layout_width="45dp"
+                android:layout_height="118dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/nature" />
+
+            <ImageView
+                android:id="@+id/cafePictureID"
+                android:layout_width="69dp"
+                android:layout_height="116dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/cafe" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="251dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/amalienborgPictureID"
+                android:layout_width="6dp"
+                android:layout_height="118dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/amalienborg" />
+
+            <ImageView
+                android:id="@+id/zooPictureID"
+                android:layout_width="4dp"
+                android:layout_height="116dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/zoo" />
+        </LinearLayout>
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
