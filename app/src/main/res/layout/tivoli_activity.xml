@@ -7,9 +7,9 @@
     tools:context=".TivoliActivity">
 
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/tivoliInfoId"
+        android:layout_width="166dp"
+        android:layout_height="71dp"
         android:text="Aktivitet 5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

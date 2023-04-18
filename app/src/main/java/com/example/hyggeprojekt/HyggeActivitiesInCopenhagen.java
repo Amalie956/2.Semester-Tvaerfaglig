@@ -5,16 +5,25 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+
+import java.util.Map;
 
 public class HyggeActivitiesInCopenhagen extends AppCompatActivity {
+
     public ImageView ActivityTivoli;
     public ImageView ActivityRestaurant;
     public ImageView ActivitNature;
     public ImageView ActivityCafe;
     public ImageView ActivityAmalienborg;
     public ImageView ActivityZoo;
+
 
 
 
@@ -32,12 +41,15 @@ public class HyggeActivitiesInCopenhagen extends AppCompatActivity {
         ActivityZoo = (ImageView) findViewById(R.id.zooPictureID);
 
 
+
         ActivityTivoli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HyggeActivitiesInCopenhagen.this, TivoliActivity.class);
                 startActivity(intent);
+
             }
+
         });
 
         ActivityRestaurant.setOnClickListener(new View.OnClickListener() {
