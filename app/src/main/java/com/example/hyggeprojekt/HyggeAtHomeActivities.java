@@ -5,8 +5,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+
+import java.util.Map;
 
 public class HyggeAtHomeActivities extends AppCompatActivity {
     public ImageView ActivityHotChocolate;
@@ -15,6 +22,7 @@ public class HyggeAtHomeActivities extends AppCompatActivity {
     public ImageView ActivityBathub;
     public ImageView ActivityLighting;
     public ImageView ActivitySofa;
+
 
 
 
@@ -31,6 +39,8 @@ public class HyggeAtHomeActivities extends AppCompatActivity {
         ActivityBathub = (ImageView) findViewById(R.id.bathubPictureID);
         ActivityLighting = (ImageView) findViewById(R.id.lightingPictureID);
         ActivitySofa = (ImageView) findViewById(R.id.sofaPictureID);
+
+
 
         ActivityHotChocolate.setOnClickListener(new View.OnClickListener() {
             @Override

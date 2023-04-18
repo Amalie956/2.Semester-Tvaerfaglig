@@ -7,7 +7,7 @@
     tools:context=".ComfortableClothesSocksActivity">
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/cozyLoungewearId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Aktivitet 12"
