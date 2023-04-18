@@ -41,7 +41,7 @@ public class TivoliActivity extends AppCompatActivity {
                         String name = (String) data.get("Name");
                         String description = (String) data.get("Description");
                         String openingHours = (String) data.get("Opening hours");
-                        String address = (String) data.get("Adresse");
+                        String address = (String) data.get("Address");
 
                         Log.d(TAG, "Tivoli Name: " + name);
 
