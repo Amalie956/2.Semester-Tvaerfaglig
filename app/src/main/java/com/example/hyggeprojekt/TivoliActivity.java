@@ -21,14 +21,14 @@ import java.util.Map;
 public class TivoliActivity extends AppCompatActivity {
     private static final String TAG = "TivoliActivity";
     StringBuilder dataBuilder = new StringBuilder();
-    TextView tivoliPictureId;
+    TextView tivoliInfoId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tivoli_activity);
 
-        tivoliPictureId = (TextView) findViewById(R.id.tivoliInfoId);
+        tivoliInfoId = (TextView) findViewById(R.id.tivoliInfoId);
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
@@ -47,7 +47,7 @@ public class TivoliActivity extends AppCompatActivity {
 
                     }
                     // Displays multiple Data points (in our case: name and address)
-                    tivoliPictureId.setText(dataBuilder.toString());
+                    tivoliInfoId.setText(dataBuilder.toString());
                 })
                 .addOnFailureListener(e -> {
                     // Handle errors here
