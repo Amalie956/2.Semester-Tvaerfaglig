@@ -39,6 +39,7 @@ public class TivoliActivity extends AppCompatActivity {
                         Map<String, Object> data = document.getData();
                         // Gets the data from "Tivoli"-collection
                         String name = (String) data.get("Name");
+                        String description = (String) data.get("Description");
                         String openingHours = (String) data.get("Opening hours");
                         String address = (String) data.get("Adresse");
 
@@ -46,7 +47,7 @@ public class TivoliActivity extends AppCompatActivity {
 
 
                         // concatenates the data points into a single string and then sets the text of our TextView to that string.
-                        dataBuilder.append(name).append("\n").append(openingHours).append("\n").append(address).append("");
+                        dataBuilder.append(name).append("\n").append("\n").append(description).append("\n").append("\n").append(openingHours).append("\n").append("\n").append(address).append("\n");
 
                     }
                     // Displays multiple Data points (in our case: name and address)
