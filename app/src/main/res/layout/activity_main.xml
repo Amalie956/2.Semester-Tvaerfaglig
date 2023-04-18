@@ -20,26 +20,37 @@
             android:id="@+id/InfoAboutHyggeButtonID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/buttonWhatIsHygge" />
+            android:text="@string/buttonWhatIsHygge"
+            tools:text="What is hygge?" />
 
         <Button
             android:id="@+id/ActivitiesInCopenhagenButtonID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/buttonHyggeInCopenhagen" />
+            android:text="@string/buttonHyggeInCopenhagen"
+            tools:text="Hygge in Copenhagen" />
 
         <Button
             android:id="@+id/HyggeActivitiesAtHomeID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/buttonHomeHygge" />
+            android:text="@string/buttonHomeHygge"
+            tools:text="Hygge at home" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aktivitet 1"
+        android:fontFamily="@font/aclonica"
+        android:text="Hygge Life"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#368E3A"
+        android:textColorHighlight="#AF6C08"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        android:outlineAmbientShadowColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
