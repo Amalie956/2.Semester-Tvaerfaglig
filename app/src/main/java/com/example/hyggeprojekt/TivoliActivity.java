@@ -15,10 +15,12 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
+import java.text.BreakIterator;
 import java.util.Map;
 
 public class TivoliActivity extends AppCompatActivity {
     private static final String TAG = "TivoliActivity";
+    StringBuilder dataBuilder = new StringBuilder();
     TextView tivoliPictureId;
 
     @Override
@@ -32,19 +34,20 @@ public class TivoliActivity extends AppCompatActivity {
 
         db.collection("Tivoli").get()
                 .addOnSuccessListener(queryDocumentSnapshots -> {
-                    // Iterate over the documents in the query result
                     for (QueryDocumentSnapshot document : queryDocumentSnapshots) {
                         // Get the data as a Map
                         Map<String, Object> data = document.getData();
-                        // Do something with the data
+                        // Gets the data from "Tivoli"-collection
                         String name = (String) data.get("Name");
                         String address = (String) data.get("Adresse");
                         Log.d(TAG, "Tivoli Address: " + address);
                         Log.d(TAG, "Tivoli Name: " + name);
-                        tivoliPictureId.setText(name);
-                        tivoliPictureId.setText(address);
+                        // concatenates the data points into a single string and then sets the text of our TextView to that string.
+                        dataBuilder.append(name).append(": ").append(address).append("\n");
 
                     }
+                    // Displays multiple Data points (in our case: name and address)
+                    tivoliPictureId.setText(dataBuilder.toString());
                 })
                 .addOnFailureListener(e -> {
                     // Handle errors here
