@@ -36,6 +36,7 @@
                 android:id="@+id/tivoliPictureID"
                 android:layout_width="172dp"
                 android:layout_height="118dp"
+                android:background="@drawable/image_round_corners"
                 app:srcCompat="@drawable/tivoli" />
 
             <ImageView
