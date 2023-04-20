@@ -16,7 +16,7 @@
         android:text="Hygge at home"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#311C0F"
+        android:textColor="#643c2c"
         android:textColorHighlight="#AF6C08"
         android:textSize="28sp"
         android:textStyle="bold|italic"

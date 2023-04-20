@@ -53,7 +53,7 @@
         android:text="Hygge Life"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#311C0F"
+        android:textColor="#643c2c"
         android:textColorHighlight="#AF6C08"
         android:textSize="34sp"
         android:textStyle="bold|italic"
