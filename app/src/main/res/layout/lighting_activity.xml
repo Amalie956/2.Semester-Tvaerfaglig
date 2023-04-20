@@ -3,31 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#fbebdb"
     android:layout_height="match_parent"
-    tools:context=".LightingActivity">
+    android:background="@drawable/backgroundimage2"
+    tools:context=".RelaxOnSofaActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="339dp"
-        android:layout_height="413dp"
-        android:background="@drawable/rounded_corner"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
 
     <TextView
+        android:id="@+id/textView16"
         android:layout_width="281dp"
-        android:layout_height="348dp"
+        android:layout_height="500dp"
         android:fontFamily="casual"
-        android:textColor="@color/black"
-        android:text="*Under construction*"
         android:gravity="center"
+        android:text="*Under construction*"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.169" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintVertical_bias="0.497" />
 </androidx.constraintlayout.widget.ConstraintLayout>
