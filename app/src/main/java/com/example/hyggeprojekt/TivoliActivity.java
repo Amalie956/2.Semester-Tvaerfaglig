@@ -56,7 +56,5 @@ public class TivoliActivity extends AppCompatActivity {
                 .addOnFailureListener(e -> {
                     // Handle errors here
                 });
-
-
     }
 }

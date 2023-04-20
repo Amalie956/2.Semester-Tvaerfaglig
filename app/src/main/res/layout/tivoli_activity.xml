@@ -11,6 +11,7 @@
         android:layout_width="306dp"
         android:layout_height="542dp"
         android:text="Aktivitet 5"
+        android:textColor="#A50000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

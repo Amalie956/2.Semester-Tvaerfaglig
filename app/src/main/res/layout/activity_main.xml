@@ -13,14 +13,18 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <Button
             android:id="@+id/InfoAboutHyggeButtonID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/buttonWhatIsHygge"
+            android:background="@drawable/button_round_corners"
+            android:layout_margin="10dp"
             tools:text="What is hygge?" />
 
         <Button
@@ -28,6 +32,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/buttonHyggeInCopenhagen"
+            android:background="@drawable/button_round_corners"
+            android:layout_margin="10dp"
             tools:text="Hygge in Copenhagen" />
 
         <Button
@@ -35,6 +41,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/buttonHomeHygge"
+            android:background="@drawable/button_round_corners"
+            android:layout_margin="10dp"
             tools:text="Hygge at home" />
     </LinearLayout>
 
@@ -45,7 +53,6 @@
         android:fontFamily="@font/aclonica"
         android:outlineAmbientShadowColor="@color/black"
         android:text="Hygge Life"
-        android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#368E3A"
         android:textColorHighlight="#AF6C08"
