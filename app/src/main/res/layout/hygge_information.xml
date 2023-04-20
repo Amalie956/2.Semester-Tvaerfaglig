@@ -4,20 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background=" #d1843f "
+    android:background="#fbebdb"
     tools:context=".HyggeInformation">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Aktivitet 2"
+        android:layout_width="338dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal"
+        android:outlineAmbientShadowColor="@color/black"
+        android:text="What is hygge?"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#311C0F"
+        android:textColorHighlight="#AF6C08"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.116" />
+        app:layout_constraintVertical_bias="0.122" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="339dp"
@@ -26,6 +34,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="281dp"
+            android:layout_height="348dp"
+            android:fontFamily="casual"
+            android:text="Hygge is a Danish word that is difficult to translate directly into English. It is a concept of coziness, comfort, and contentment. It involves creating a warm and inviting atmosphere, spending quality time with loved ones, and enjoying simple pleasures such as traditional Danish food and drinks. To experience hygge in Denmark, tourists can visit cozy cafes, try local foods and drinks, explore the city by bike, and take a stroll through parks and gardens and the famous Tivoli in Copenhagen. By embracing hygge, tourists can immerse themselves in Danish culture and enjoy a warm and welcoming experience."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.492" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
