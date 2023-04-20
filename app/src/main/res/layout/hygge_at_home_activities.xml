@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="250dp"
-        android:layout_height="59dp"
+        android:layout_width="338dp"
+        android:layout_height="53dp"
         android:fontFamily="@font/aclonica"
         android:outlineAmbientShadowColor="@color/black"
         android:text="Hygge at home"
@@ -18,24 +18,24 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#311C0F"
         android:textColorHighlight="#AF6C08"
-        android:textSize="34sp"
+        android:textSize="28sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099" />
+        app:layout_constraintVertical_bias="0.126" />
 
     <LinearLayout
-        android:layout_width="375dp"
-        android:layout_height="556dp"
+        android:layout_width="348dp"
+        android:layout_height="439dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.748">
+        app:layout_constraintVertical_bias="0.709">
 
         <LinearLayout
             android:layout_width="match_parent"
