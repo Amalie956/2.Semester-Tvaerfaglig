@@ -4,87 +4,162 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fbebdb"
     tools:context=".HyggeAtHomeActivities">
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Aktivitet 4"
+        android:layout_width="250dp"
+        android:layout_height="59dp"
+        android:fontFamily="@font/aclonica"
+        android:outlineAmbientShadowColor="@color/black"
+        android:text="Hygge at home"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#311C0F"
+        android:textColorHighlight="#AF6C08"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.148" />
+        app:layout_constraintVertical_bias="0.099" />
 
     <LinearLayout
-        android:layout_width="414dp"
-        android:layout_height="584dp"
+        android:layout_width="375dp"
+        android:layout_height="556dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="190dp"
+            android:layout_height="145dp"
             android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/hotchocolatePictureID"
-                android:layout_width="193dp"
-                android:layout_height="145dp"
-                app:srcCompat="@drawable/hotchocolate" />
-
-            <ImageView
-                android:id="@+id/socksPictureID"
-                android:layout_width="120dp"
-                android:layout_height="153dp"
+            <androidx.cardview.widget.CardView
+                android:layout_width="6dp"
+                android:layout_height="116dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/hyggesocks" />
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/hotchocolatePictureID"
+                    android:layout_width="187dp"
+                    android:layout_height="104dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/hotchocolate" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="6dp"
+                android:layout_height="116dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/socksPictureID"
+                    android:layout_width="173dp"
+                    android:layout_height="102dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/hyggesocks" />
+            </androidx.cardview.widget.CardView>
+
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="190dp"
+            android:layout_height="145dp"
             android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/twoFemalesPictureID"
-                android:layout_width="339dp"
-                android:layout_height="156dp"
+            <androidx.cardview.widget.CardView
+                android:layout_width="6dp"
+                android:layout_height="116dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/twofemales" />
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="true">
 
-            <ImageView
-                android:id="@+id/bathubPictureID"
-                android:layout_width="358dp"
-                android:layout_height="156dp"
+                <ImageView
+                    android:id="@+id/twoFemalesPictureID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/twofemales" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="6dp"
+                android:layout_height="116dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bathtub" />
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/bathubPictureID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/bathtub" />
+
+            </androidx.cardview.widget.CardView>
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="190dp"
+            android:layout_height="145dp"
             android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/lightingPictureID"
-                android:layout_width="match_parent"
-                android:layout_height="164dp"
+            <androidx.cardview.widget.CardView
+                android:layout_width="6dp"
+                android:layout_height="116dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/hyggelighting" />
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="true">
 
-            <ImageView
-                android:id="@+id/sofaPictureID"
-                android:layout_width="429dp"
-                android:layout_height="169dp"
+                <ImageView
+                    android:id="@+id/lightingPictureID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/hyggelighting" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="6dp"
+                android:layout_height="116dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/greensofa" />
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/sofaPictureID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/greensofa" />
+
+            </androidx.cardview.widget.CardView>
+
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
