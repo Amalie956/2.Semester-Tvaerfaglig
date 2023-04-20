@@ -4,32 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fbebdb"
     tools:context=".HyggeActivitiesInCopenhagen">
+
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Aktivitet 3"
+        android:layout_width="338dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal"
+        android:outlineAmbientShadowColor="@color/black"
+        android:text="Hygge in Copenhagen"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#311C0F"
+        android:textColorHighlight="#AF6C08"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.089" />
+        app:layout_constraintVertical_bias="0.136" />
 
     <LinearLayout
-        android:layout_width="375dp"
-        android:layout_height="556dp"
+        android:layout_width="348dp"
+        android:layout_height="439dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.748">
+        app:layout_constraintVertical_bias="0.709">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="145dp"
+            android:layout_height="150dp"
             android:orientation="horizontal">
 
 
@@ -72,7 +83,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="145dp"
+            android:layout_height="150dp"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
@@ -114,7 +125,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="145dp"
+            android:layout_height="150dp"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
