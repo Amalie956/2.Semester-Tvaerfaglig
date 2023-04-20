@@ -35,14 +35,13 @@ public class HotDrinksActivity extends AppCompatActivity {
                         Map<String, Object> data = document.getData();
                         // Gets the data from "Restaurant"-collection
                         String name = (String) data.get("Name");
-                        String brand = (String) data.get("Brand");
                         String reason = (String) data.get("Reason");
 
                         Log.d(TAG, "Hot drink Name: " + name);
 
 
                         // concatenates the data points into a single string and then sets the text of our TextView to that string.
-                        dataBuilder.append(name).append("\n").append("\n").append(brand).append("\n").append("\n").append(reason).append("\n");
+                        dataBuilder.append(name).append("\n").append("\n").append("\n").append(reason).append("\n");
 
                     }
                     // Displays multiple Data points (in our case: name and address)
