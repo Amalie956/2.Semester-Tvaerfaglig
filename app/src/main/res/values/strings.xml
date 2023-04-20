@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Hygge Projekt</string>
-    <string name="buttonWhatIsHygge">Button</string>
-    <string name="buttonHyggeInCopenhagen">Button</string>
-    <string name="buttonHomeHygge">Button</string>
+    <string name="buttonWhatIsHygge">What is hygge?</string>
+    <string name="buttonHyggeInCopenhagen">Hygge in Copenhagen</string>
+    <string name="buttonHomeHygge">Hygge at home</string>
     <string name="Beskrivelse">3</string>
     <string name="textvkkiew">TextVKKiew</string>
 </resources>

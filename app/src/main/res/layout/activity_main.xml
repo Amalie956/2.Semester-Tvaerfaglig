@@ -24,8 +24,7 @@
             android:layout_height="wrap_content"
             android:text="@string/buttonWhatIsHygge"
             android:background="@drawable/button_round_corners"
-            android:layout_margin="10dp"
-            tools:text="What is hygge?" />
+            android:layout_margin="10dp" />
 
         <Button
             android:id="@+id/ActivitiesInCopenhagenButtonID"
@@ -33,8 +32,7 @@
             android:layout_height="wrap_content"
             android:text="@string/buttonHyggeInCopenhagen"
             android:background="@drawable/button_round_corners"
-            android:layout_margin="10dp"
-            tools:text="Hygge in Copenhagen" />
+            android:layout_margin="10dp" />
 
         <Button
             android:id="@+id/HyggeActivitiesAtHomeID"
@@ -42,8 +40,7 @@
             android:layout_height="wrap_content"
             android:text="@string/buttonHomeHygge"
             android:background="@drawable/button_round_corners"
-            android:layout_margin="10dp"
-            tools:text="Hygge at home" />
+            android:layout_margin="10dp"/>
     </LinearLayout>
 
     <TextView
